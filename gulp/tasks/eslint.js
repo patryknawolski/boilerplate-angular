@@ -6,5 +6,4 @@ gulp.task('eslint', function () {
   return gulp.src([config.scripts.src, 'gulpfile.js', 'gulp/*/**.js'])
     .pipe(eslint())
     .pipe(eslint.format())
-    .pipe(eslint.failAfterError())
 })
