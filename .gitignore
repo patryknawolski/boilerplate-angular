@@ -1,5 +1,6 @@
 .DS_Store
-src/css/
+src/css/style.css
+src/css/style.css.map
 build/
 bower_components/
 node_modules/
