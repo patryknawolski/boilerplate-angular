@@ -12,7 +12,7 @@ gulp.task('browserSync', function () {
   gulp.watch(config.views.index).on('change', browserSync.reload)
 
   gulp.watch(config.styles.tmp + '/**/*.css', function () {
-    return gulp.src(config.styles.tmp)
+    return gulp.src(config.styles.compiled)
       .pipe(browserSync.stream())
   })
 })
